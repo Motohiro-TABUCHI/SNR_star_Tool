@@ -1,0 +1,10 @@
+SNR Star Tool v1.0
+【Principle】
+・Signal variance (σ_s²) is calculated as the covariance between two observation images acquired under identical conditions
+・Noise variance (σ_n²) is calculated as half the variance of the difference image between the two observation images
+・SNR* is defined by the following equation: SNR* = 10 log10 (σ_s² / σ_n²)
+【Usage】
+1. Prepare two observation images acquired under identical imaging conditions and store them in a single folder.
+2. Launch the ImageJ SNR star Tool and select the folder from step 1.
+3. Draw an ROI over the SNR measurement region on the opened image and proceed to the next step.
+4. SNR*, measurement region, signal variance value, and noise variance value will be outputed.
