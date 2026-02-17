@@ -117,6 +117,34 @@ Motohiro TABUCHI
 
 ---
 
+## Citation
+
+If you use this software in your research, please cite:
+
+Tabuchi, M. (2026). *SNR_star* (Version 1.0.0) [Computer software].  
+
+https://doi.org/10.5281/zenodo.18666472
+
+If this method contributes to your work, please also cite the original paper:
+
+Tabuchi, M. (2022). SNR Estimation for Image Quality Evaluation in X-ray CT.
+
+---
+
 ## License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
+
+---
+
+BibTeX:
+
+```bibtex
+@software{tabuchi2026snrstar,
+  author  = {Tabuchi, Motohiro},
+  title   = {SNR_star},
+  version = {1.0.0},
+  year    = {2026},
+  doi     = {10.5281/zenodo.18666472}
+}
+
