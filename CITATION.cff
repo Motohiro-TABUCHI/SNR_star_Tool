@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Tabuchi"
     given-names: "Motohiro"
-doi: 10.5281/zenodo.18666472 
+doi: "10.5281/zenodo.18666471"  # Concept DOI
 date-released: 2026-02-17
 version: "1.0.0"
 repository-code: "https://github.com/Motohiro-TABUCHI/SNR_star"
