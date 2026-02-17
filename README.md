@@ -96,7 +96,7 @@ Output format follows the internal macro implementation.
 
 ---
 
-## Notes
+## Assumptions and Notes
 
 - The method assumes:
   - Additive noise
@@ -106,14 +106,24 @@ Output format follows the internal macro implementation.
 
 ---
 
+## References
+- Tabuchi M, Kiguchi T, Ikenaga H. SNR estimation for image quality evaluation in X-ray CT. Jpn J Radiol Technol. 2022;78:464–72. https://doi.org/10.6009/jjrt.2022-1154.
+
+---
+
 ## Version
 
-1.0 (2026)
+1.0.0 (2026)
 
 ---
 
 ## Author
 Motohiro TABUCHI
+
+---
+## License
+This project is licensed under the MIT License.
+See the LICENSE file for details.
 
 ---
 
@@ -122,20 +132,11 @@ Motohiro TABUCHI
 If you use this software in your research, please cite:
 
 Tabuchi, M. (2026). *SNR_star* (Version 1.0.0) [Computer software].  
-
-https://doi.org/10.5281/zenodo.18666472
+https://doi.org/10.5281/zenodo.18666471
 
 If this method contributes to your work, please also cite the original paper:
 
 Tabuchi, M. (2022). SNR Estimation for Image Quality Evaluation in X-ray CT.
-
----
-
-## License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
-
----
 
 BibTeX:
 
@@ -145,6 +146,5 @@ BibTeX:
   title   = {SNR_star},
   version = {1.0.0},
   year    = {2026},
-  doi     = {10.5281/zenodo.18666472}
+  doi     = {10.5281/zenodo.18666471 }
 }
-
