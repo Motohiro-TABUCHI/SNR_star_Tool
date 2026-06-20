@@ -78,7 +78,7 @@ for (s=0; s<list.length; s++){
     	xx = round(xpoints[i]);
    	yy = round(ypoints[i]);
 
-    	// 重複画素を除外
+    	// Remove duplicate pixels
     	if(xx!=lastx || yy!=lasty){
 
         	a[k] = getPixel(xx,yy);
