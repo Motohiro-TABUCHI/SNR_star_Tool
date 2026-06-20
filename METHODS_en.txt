@@ -1,4 +1,4 @@
-SNR Star Tool v1.0
+SNR Star Tool v1.0.1
 【Principle】
 ・Signal variance (σ_s²) is calculated as the covariance between two observation images acquired under identical conditions
 ・Noise variance (σ_n²) is calculated as half the variance of the difference image between the two observation images
