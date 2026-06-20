@@ -148,3 +148,11 @@ BibTeX:
   year    = {2026},
   doi     = {10.5281/zenodo.18666471 }
 }
+
+## Version History
+
+### Version 1.0.1 (2026-06-20)
+
+- Fixed an issue affecting oblique line ROIs.
+- Bilinear interpolation caused smoothing, leading to underestimation of noise variance and overestimation of SNR*.
+- Pixel sampling was changed to nearest-neighbor sampling with duplicate-pixel removal.
