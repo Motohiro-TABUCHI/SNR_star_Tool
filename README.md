@@ -146,7 +146,7 @@ BibTeX:
 
 ## Version History
 
-### Version 1.0.1 (2026-06-20)
+### Version 1.0.1 (2026-06-21)
 
 - Fixed an issue affecting oblique line ROIs.
 - Bilinear interpolation caused smoothing, leading to underestimation of noise variance and overestimation of SNR*.
