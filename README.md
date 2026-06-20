@@ -111,12 +111,6 @@ Output format follows the internal macro implementation.
 
 ---
 
-## Version
-
-1.0.0 (2026)
-
----
-
 ## Author
 Motohiro TABUCHI
 
@@ -131,7 +125,7 @@ See the LICENSE file for details.
 
 If you use this software in your research, please cite:
 
-Tabuchi, M. (2026). *SNR_star* (Version 1.0.0) [Computer software].  
+Tabuchi, M. (2026). *SNR_star* (Version 1.0.1) [Computer software].  
 https://doi.org/10.5281/zenodo.18666471
 
 If this method contributes to your work, please also cite the original paper:
@@ -144,7 +138,7 @@ BibTeX:
 @software{tabuchi2026snrstar,
   author  = {Tabuchi, Motohiro},
   title   = {SNR_star},
-  version = {1.0.0},
+  version = {1.0.1},
   year    = {2026},
   doi     = {10.5281/zenodo.18666471}
 }
@@ -157,3 +151,7 @@ BibTeX:
 - Fixed an issue affecting oblique line ROIs.
 - Bilinear interpolation caused smoothing, leading to underestimation of noise variance and overestimation of SNR*.
 - Pixel sampling was changed to nearest-neighbor sampling with duplicate-pixel removal.
+
+### Version 1.0.0 (2026-02-16)
+
+- Initial public release.
