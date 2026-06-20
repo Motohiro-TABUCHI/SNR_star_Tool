@@ -6,7 +6,7 @@
 // Requires two observed images acquired under identical conditions
 // For research use only
 // Requires ImageJ 1.53 or later
-// Version: 1.0
+// Version: 1.0.1
 // Year: 2026
 // Author: Motohiro TABUCHI
 // -----------------------------------------------------------
