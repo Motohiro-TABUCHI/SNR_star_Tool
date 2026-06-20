@@ -63,17 +63,39 @@ for (s=0; s<list.length; s++){
 
 	Roi.getContainedPoints(xpoints,ypoints);
 
-	p = lengthOf(xpoints);
-	a = newArray(p);	//print(lengthOf(xpoints),lengthOf(ypoints),p);waitForUser("test, test \"OK\".");
-	average = 0;
-			
-					for(i=0;i<p;i++){
+	p0 = lengthOf(xpoints);
 
-						a[i] = getPixel(xpoints[i],ypoints[i]);
-			
-						average += a[i]/p;
-			
-					}
+	a = newArray(p0);
+
+	k = 0;
+	average = 0;
+
+	lastx = -999999;
+	lasty = -999999;
+
+	for(i=0;i<p0;i++){
+
+    	xx = round(xpoints[i]);
+   	yy = round(ypoints[i]);
+
+    	// 重複画素を除外
+    	if(xx!=lastx || yy!=lasty){
+
+        	a[k] = getPixel(xx,yy);
+
+        	average += a[k];
+
+        	lastx = xx;
+        	lasty = yy;
+
+       		k++;
+    	}
+	}
+
+	p = k;
+
+	average /= p;
+
 	
 	if(s == 0){
 			
