@@ -146,8 +146,9 @@ BibTeX:
   title   = {SNR_star},
   version = {1.0.0},
   year    = {2026},
-  doi     = {10.5281/zenodo.18666471 }
+  doi     = {10.5281/zenodo.18666471}
 }
+```
 
 ## Version History
 
